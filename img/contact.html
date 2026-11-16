@@ -1,0 +1,116 @@
+<section class="contact-section">
+    <div class="contact-container">
+
+        <h2>Contact</h2>
+        <p>
+            Heb je een vraag of wil je samenwerken? Neem gerust contact op.
+        </p>
+
+        <div class="contact-links">
+            <a href="tel:0622365560" class="contact-card">
+                Tel: 0622365560
+            </a>
+
+            <a href="mailto:fayyaz0909@gmail.com" class="contact-card">
+                Mail: fayyaz0909@gmail.com
+            </a>
+
+            <a href="index.html" class="contact-card">
+                Home
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-section {
+    background: #fff;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #4169E1;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    display: inline-block;
+    background: #4169E1;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    background: #3157d5;
+    transform: translateY(-3px);
+}
+
+/* Mobiele versie */
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 30px 20px;
+    }
+
+    .contact-container h2 {
+        font-size: 30px;
+    }
+
+    .contact-container p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contact-card {
+        width: 100%;
+        max-width: 320px;
+        padding: 16px;
+        font-size: 16px;
+    }
+}
+
+</style>
